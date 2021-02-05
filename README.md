@@ -16,7 +16,7 @@ The jupyter notebook `main_clean.py` is the main script. This reproduces all fig
 
 * Specify the path to the Vosoughi et al. data in the file `definitions_clean.py`. 
 * Download data of simulated SIR and IC processes and save the files to the correct subfolders. Instructions are found in the files `download_data_for_this_folder.txt` found in the directories [`IC_data`](https://github.com/jonassjuul/FartherFasterDeeperBroader/tree/main/code/IC_data), [`IC_data/Network_simulations`](https://github.com/jonassjuul/FartherFasterDeeperBroader/tree/main/code/IC_data/Network_simulations), [`SIR_data`](https://github.com/jonassjuul/FartherFasterDeeperBroader/tree/main/code/SIR_data), and [`SIR_data/Network_simulations`](https://github.com/jonassjuul/FartherFasterDeeperBroader/tree/main/code/SIR_data/Network_simulations).
- * Instead of downloading these data, you can also simulate SIR and IC processes on networks by
+  * Instead of downloading these data, you can also simulate SIR and IC processes on networks by
    * Specifying edge-lists for the empirical networks.
    * Running each `go` file in the folders `IC_data` and `SIR_data` (and subfolders `Network_simulations`)
    * Running all Python files in the folders `IC_data` and `SIR_data` (and subfolders `Network_simulations`).
