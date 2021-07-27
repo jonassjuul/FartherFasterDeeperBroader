@@ -550,7 +550,12 @@ def combine_p_values(p_vec) :
 def count_rooted_trees() :
     
     # import cascade data
-    metadata_file = '../../../../Dropbox/Data/Data/FalseNews_Code_Data/data/raw_data_anon.csv'
+    
+    raw_data_anon_path = '' # Insert path to Vosoughi et al.'s file 'raw_data_anon.csv'
+    if (raw_data_anon_path == '') :
+        input('Path to raw_anon_data.csv must be specified. The data can be obtained using the link specified in the Acknowledgement section of Vosoughi et al. (DOI: 10.1126/science.aap9559)')
+    
+    metadata_file = raw_data_anon_path
     df= pd.read_csv(metadata_file)
 
 
@@ -706,7 +711,11 @@ def rooted_trees_statistics(result_dic,keys) :
 def count_rooted_trees_general(result_dic_SIR,keys) :
     
     # import cascade data
-    metadata_file = '../../../../Dropbox/Data/Data/FalseNews_Code_Data/data/raw_data_anon.csv'
+    raw_data_anon_path = '' # Insert path to Vosoughi et al.'s file 'raw_data_anon.csv'
+    if (raw_data_anon_path == '') :
+        input('Path to raw_anon_data.csv must be specified. The data can be obtained using the link specified in the Acknowledgement section of Vosoughi et al. (DOI: 10.1126/science.aap9559)')
+    
+    metadata_file = raw_data_anon_path
     df= pd.read_csv(metadata_file)
 
 
@@ -813,8 +822,11 @@ def count_rooted_trees_general(result_dic_SIR,keys) :
 
 #def import_truefalsedata_new() :
 def import_truefalsedata() :
+    raw_data_anon_path = '' # Insert path to Vosoughi et al.'s file 'raw_data_anon.csv'
+    if (raw_data_anon_path == '') :
+        input('Path to raw_anon_data.csv must be specified. The data can be obtained using the link specified in the Acknowledgement section of Vosoughi et al. (DOI: 10.1126/science.aap9559)')
 
-    metadata_file = '../../../../Dropbox/Data/Data/FalseNews_Code_Data/data/new_metadata_anon.txt'
+    metadata_file = raw_data_anon_path
     print("Reading metadata...")
     print("Make sure that the Prufer Sequence has been saved for each cascade. Key should be 'prufer_sequence'. Networkx can help get the prufer sequence for each cascade when build with Vosoughi et al.'s code.")
 
