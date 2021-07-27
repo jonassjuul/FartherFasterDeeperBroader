@@ -14,7 +14,8 @@ Due to space constraints, synthetic cascade data files has not been uploaded to 
 The directory `code` contains the code for the paper. 
 The jupyter notebook `main_clean.py` is the main script. This reproduces all figures and tables from the paper. To run this notebook, you will need to 
 
-* Specify the path to the Vosoughi et al. and Goel et al. data in the file `definitions_clean.py`. 
+* Specify the path to the Vosoughi et al. data in the file `definitions_clean.py`. 
+* Place the Goel data file in the folder `data-Goel` or specify another path in the notebook `main_clean.py`.
 * Download data of simulated SIR and IC processes and save the files to the correct subfolders. Instructions are found in the files `download_data_for_this_folder.txt` found in the directories [`IC_data`](https://github.com/jonassjuul/FartherFasterDeeperBroader/tree/main/code/IC_data), [`IC_data/Network_simulations`](https://github.com/jonassjuul/FartherFasterDeeperBroader/tree/main/code/IC_data/Network_simulations), [`SIR_data`](https://github.com/jonassjuul/FartherFasterDeeperBroader/tree/main/code/SIR_data), and [`SIR_data/Network_simulations`](https://github.com/jonassjuul/FartherFasterDeeperBroader/tree/main/code/SIR_data/Network_simulations).
   * Instead of downloading these data, you can also simulate SIR and IC processes on networks by
    * Specifying edge-lists for the empirical networks.
