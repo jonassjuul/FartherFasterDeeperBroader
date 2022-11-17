@@ -3,7 +3,7 @@
 ## What does this repository contain?
 This repository contains code to reproduce figures and data from the manuscript
 
-"Comparing information diffusion mechanisms by matching on cascade size"
+"[Comparing information diffusion mechanisms by matching on cascade size](https://www.pnas.org/doi/abs/10.1073/pnas.2100786118)"
 by [Jonas L. Juul](https://people.cam.cornell.edu/jsj85/) and [Johan Ugander](https://web.stanford.edu/~jugander/).
 
 To run these scripts, one should acquire the dataset of the spread of false and true news on Twitter. A link to these data can be found in the acknowledgment section of Vosoughi et al. [DOI: 10.1126/science.aap9559](https://science.sciencemag.org/content/359/6380/1146).
